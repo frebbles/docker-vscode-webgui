@@ -19,6 +19,7 @@ RUN apt-get -y install wget
 RUN apt-get -y install netcat
 RUN apt-get -y install sudo
 RUN apt-get -y install net-tools
+RUN apt-get -y install git git-core
 
 # This is the 'hardest' coded part, TODO: update this to use latest instead!
 # download the coder binary, untar it, and allow it to be executed
