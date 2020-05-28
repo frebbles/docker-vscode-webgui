@@ -11,7 +11,7 @@ Leveraging the great efforts of: https://github.com/caesarnine/data-science-dock
 ```
 cd docker-vscode-webgui
 docker build -t dvscode-web .
-docker run -p 8080:8080 $(pwd)/code:/code --rm -it dvscode-web
+docker run -p 8080:8080 -v $(pwd)/code:/code --rm -it dvscode-web
 ```
 
 VSCode will be running on:
