@@ -48,6 +48,4 @@ RUN code-server-3.3.1-linux-x86_64/code-server \
 
 COPY docker-entrypoint.sh /usr/local/bin/
 
-ADD ./code /code
-
 ENTRYPOINT ["docker-entrypoint.sh"]
